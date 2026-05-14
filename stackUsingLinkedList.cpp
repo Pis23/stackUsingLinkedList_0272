@@ -5,7 +5,7 @@ class Node
 {
     public:
         int data;
-        node *next;
+        Node *next;
 
         Node()
         {
@@ -19,4 +19,13 @@ class stack
     private:
         Node *top;
     
-}
+    public:
+        stack()
+        {
+            top = NULL;
+        }
+        int push(int value)
+        {
+            
+        }
+};
